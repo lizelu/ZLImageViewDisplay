@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F419BC121B7DB7A6004CE9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F419BC111B7DB7A6004CE9F7 /* main.m */; };
+		F419BC151B7DB7A6004CE9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F419BC141B7DB7A6004CE9F7 /* AppDelegate.m */; };
+		F419BC181B7DB7A6004CE9F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419BC171B7DB7A6004CE9F7 /* ViewController.m */; };
+		F419BC1B1B7DB7A6004CE9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419BC191B7DB7A6004CE9F7 /* Main.storyboard */; };
+		F419BC1D1B7DB7A6004CE9F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F419BC1C1B7DB7A6004CE9F7 /* Images.xcassets */; };
+		F419BC201B7DB7A6004CE9F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F419BC1E1B7DB7A6004CE9F7 /* LaunchScreen.xib */; };
+		F419BC2C1B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F419BC2B1B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.m */; };
+		F419BC3A1B7DB7FE004CE9F7 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F419BC371B7DB7FE004CE9F7 /* 01.jpg */; };
+		F419BC3B1B7DB7FE004CE9F7 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F419BC381B7DB7FE004CE9F7 /* 02.jpg */; };
+		F419BC3C1B7DB7FE004CE9F7 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F419BC391B7DB7FE004CE9F7 /* 03.jpg */; };
+		F419BC3F1B7DB837004CE9F7 /* ZLImageViewDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F419BC3E1B7DB837004CE9F7 /* ZLImageViewDisplayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F419BC261B7DB7A7004CE9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F419BC041B7DB7A6004CE9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F419BC0B1B7DB7A6004CE9F7;
+			remoteInfo = ZLImageViewDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F419BC0C1B7DB7A6004CE9F7 /* ZLImageViewDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLImageViewDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F419BC101B7DB7A6004CE9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F419BC111B7DB7A6004CE9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F419BC131B7DB7A6004CE9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F419BC141B7DB7A6004CE9F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F419BC161B7DB7A6004CE9F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F419BC171B7DB7A6004CE9F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F419BC1A1B7DB7A6004CE9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F419BC1C1B7DB7A6004CE9F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F419BC1F1B7DB7A6004CE9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F419BC251B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLImageViewDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F419BC2A1B7DB7A7004CE9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F419BC2B1B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLImageViewDisplayTests.m; sourceTree = "<group>"; };
+		F419BC371B7DB7FE004CE9F7 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		F419BC381B7DB7FE004CE9F7 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		F419BC391B7DB7FE004CE9F7 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		F419BC3D1B7DB837004CE9F7 /* ZLImageViewDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLImageViewDisplayView.h; sourceTree = "<group>"; };
+		F419BC3E1B7DB837004CE9F7 /* ZLImageViewDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImageViewDisplayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F419BC091B7DB7A6004CE9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F419BC221B7DB7A7004CE9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F419BC031B7DB7A6004CE9F7 = {
+			isa = PBXGroup;
+			children = (
+				F419BC0E1B7DB7A6004CE9F7 /* ZLImageViewDisplay */,
+				F419BC281B7DB7A7004CE9F7 /* ZLImageViewDisplayTests */,
+				F419BC0D1B7DB7A6004CE9F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F419BC0D1B7DB7A6004CE9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC0C1B7DB7A6004CE9F7 /* ZLImageViewDisplay.app */,
+				F419BC251B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F419BC0E1B7DB7A6004CE9F7 /* ZLImageViewDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC361B7DB7FE004CE9F7 /* image */,
+				F419BC351B7DB7F1004CE9F7 /* ZLImageViewDisplay */,
+				F419BC131B7DB7A6004CE9F7 /* AppDelegate.h */,
+				F419BC141B7DB7A6004CE9F7 /* AppDelegate.m */,
+				F419BC161B7DB7A6004CE9F7 /* ViewController.h */,
+				F419BC171B7DB7A6004CE9F7 /* ViewController.m */,
+				F419BC191B7DB7A6004CE9F7 /* Main.storyboard */,
+				F419BC1C1B7DB7A6004CE9F7 /* Images.xcassets */,
+				F419BC1E1B7DB7A6004CE9F7 /* LaunchScreen.xib */,
+				F419BC0F1B7DB7A6004CE9F7 /* Supporting Files */,
+			);
+			path = ZLImageViewDisplay;
+			sourceTree = "<group>";
+		};
+		F419BC0F1B7DB7A6004CE9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC101B7DB7A6004CE9F7 /* Info.plist */,
+				F419BC111B7DB7A6004CE9F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F419BC281B7DB7A7004CE9F7 /* ZLImageViewDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC2B1B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.m */,
+				F419BC291B7DB7A7004CE9F7 /* Supporting Files */,
+			);
+			path = ZLImageViewDisplayTests;
+			sourceTree = "<group>";
+		};
+		F419BC291B7DB7A7004CE9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC2A1B7DB7A7004CE9F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F419BC351B7DB7F1004CE9F7 /* ZLImageViewDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC3D1B7DB837004CE9F7 /* ZLImageViewDisplayView.h */,
+				F419BC3E1B7DB837004CE9F7 /* ZLImageViewDisplayView.m */,
+			);
+			path = ZLImageViewDisplay;
+			sourceTree = "<group>";
+		};
+		F419BC361B7DB7FE004CE9F7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F419BC371B7DB7FE004CE9F7 /* 01.jpg */,
+				F419BC381B7DB7FE004CE9F7 /* 02.jpg */,
+				F419BC391B7DB7FE004CE9F7 /* 03.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F419BC0B1B7DB7A6004CE9F7 /* ZLImageViewDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F419BC2F1B7DB7A7004CE9F7 /* Build configuration list for PBXNativeTarget "ZLImageViewDisplay" */;
+			buildPhases = (
+				F419BC081B7DB7A6004CE9F7 /* Sources */,
+				F419BC091B7DB7A6004CE9F7 /* Frameworks */,
+				F419BC0A1B7DB7A6004CE9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLImageViewDisplay;
+			productName = ZLImageViewDisplay;
+			productReference = F419BC0C1B7DB7A6004CE9F7 /* ZLImageViewDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F419BC241B7DB7A7004CE9F7 /* ZLImageViewDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F419BC321B7DB7A7004CE9F7 /* Build configuration list for PBXNativeTarget "ZLImageViewDisplayTests" */;
+			buildPhases = (
+				F419BC211B7DB7A7004CE9F7 /* Sources */,
+				F419BC221B7DB7A7004CE9F7 /* Frameworks */,
+				F419BC231B7DB7A7004CE9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F419BC271B7DB7A7004CE9F7 /* PBXTargetDependency */,
+			);
+			name = ZLImageViewDisplayTests;
+			productName = ZLImageViewDisplayTests;
+			productReference = F419BC251B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F419BC041B7DB7A6004CE9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ludashi;
+				TargetAttributes = {
+					F419BC0B1B7DB7A6004CE9F7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F419BC241B7DB7A7004CE9F7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F419BC0B1B7DB7A6004CE9F7;
+					};
+				};
+			};
+			buildConfigurationList = F419BC071B7DB7A6004CE9F7 /* Build configuration list for PBXProject "ZLImageViewDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F419BC031B7DB7A6004CE9F7;
+			productRefGroup = F419BC0D1B7DB7A6004CE9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F419BC0B1B7DB7A6004CE9F7 /* ZLImageViewDisplay */,
+				F419BC241B7DB7A7004CE9F7 /* ZLImageViewDisplayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F419BC0A1B7DB7A6004CE9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F419BC3C1B7DB7FE004CE9F7 /* 03.jpg in Resources */,
+				F419BC3B1B7DB7FE004CE9F7 /* 02.jpg in Resources */,
+				F419BC1B1B7DB7A6004CE9F7 /* Main.storyboard in Resources */,
+				F419BC201B7DB7A6004CE9F7 /* LaunchScreen.xib in Resources */,
+				F419BC3A1B7DB7FE004CE9F7 /* 01.jpg in Resources */,
+				F419BC1D1B7DB7A6004CE9F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F419BC231B7DB7A7004CE9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F419BC081B7DB7A6004CE9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F419BC3F1B7DB837004CE9F7 /* ZLImageViewDisplayView.m in Sources */,
+				F419BC181B7DB7A6004CE9F7 /* ViewController.m in Sources */,
+				F419BC151B7DB7A6004CE9F7 /* AppDelegate.m in Sources */,
+				F419BC121B7DB7A6004CE9F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F419BC211B7DB7A7004CE9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F419BC2C1B7DB7A7004CE9F7 /* ZLImageViewDisplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F419BC271B7DB7A7004CE9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F419BC0B1B7DB7A6004CE9F7 /* ZLImageViewDisplay */;
+			targetProxy = F419BC261B7DB7A7004CE9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F419BC191B7DB7A6004CE9F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F419BC1A1B7DB7A6004CE9F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F419BC1E1B7DB7A6004CE9F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F419BC1F1B7DB7A6004CE9F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F419BC2D1B7DB7A7004CE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F419BC2E1B7DB7A7004CE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F419BC301B7DB7A7004CE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLImageViewDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F419BC311B7DB7A7004CE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLImageViewDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F419BC331B7DB7A7004CE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLImageViewDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLImageViewDisplay.app/ZLImageViewDisplay";
+			};
+			name = Debug;
+		};
+		F419BC341B7DB7A7004CE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLImageViewDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLImageViewDisplay.app/ZLImageViewDisplay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F419BC071B7DB7A6004CE9F7 /* Build configuration list for PBXProject "ZLImageViewDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F419BC2D1B7DB7A7004CE9F7 /* Debug */,
+				F419BC2E1B7DB7A7004CE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F419BC2F1B7DB7A7004CE9F7 /* Build configuration list for PBXNativeTarget "ZLImageViewDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F419BC301B7DB7A7004CE9F7 /* Debug */,
+				F419BC311B7DB7A7004CE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F419BC321B7DB7A7004CE9F7 /* Build configuration list for PBXNativeTarget "ZLImageViewDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F419BC331B7DB7A7004CE9F7 /* Debug */,
+				F419BC341B7DB7A7004CE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F419BC041B7DB7A6004CE9F7 /* Project object */;
+}
