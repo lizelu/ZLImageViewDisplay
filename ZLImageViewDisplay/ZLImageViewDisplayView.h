@@ -12,31 +12,23 @@
 typedef void(^TapImageViewButtonBlock)(NSInteger imageIndex);
 
 @interface ZLImageViewDisplayView : UIView
-
-
-//切换图片的时间间隔，可选，默认为3s
-@property (nonatomic, assign) CGFloat scrollInterval;
-
-//切换图片时，运动时间间隔,可选，默认为0.7s
-@property (nonatomic, assign) CGFloat animationInterVale;
+@property (nonatomic, assign) CGFloat scrollInterval;               //切换图片的时间间隔，可选，默认为3s
+@property (nonatomic, assign) CGFloat animationInterVale;           //运动时间间隔,可选，默认为0.7s
+@property (nonatomic, strong) NSArray *imageViewArray;              //图片数组
 
 /**********************************
  *功能：便利构造器
- *参数：滚动视图的Frame, 要显示图片的数组
+ *参数：滚动视图的Frame
  *返回值：该类的对象
  **********************************/
-+ (instancetype) zlImageViewDisplayViewWithFrame: (CGRect) frame
-                                      WithImages: (NSArray *) images;
++ (instancetype) zlImageViewDisplayViewWithFrame: (CGRect) frame;
 
 /**********************************
  *功能：便利初始化函数
- *参数：滚动视图的Frame, 要显示图片的数组
+ *参数：滚动视图的Frame
  *返回值：该类的对象
  **********************************/
-- (instancetype)initWithFrame: (CGRect)frame
-                   WithImages: (NSArray *) images;
-
-
+- (instancetype)initWithFrame: (CGRect)frame;
 
 /**********************************
  *功能：为每个图片添加点击时间
