@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>929644AF-FCFD-427A-A30C-420272D4EDC6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZLImageViewDisplay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A1E367F1EB54E5F993579854AA6C8BBF5ADE60BC</key>
+		<string>https://github.com/lizelu/ZLImageViewDisplay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZLImageViewDisplayDemo/ZLImageViewDisplay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A1E367F1EB54E5F993579854AA6C8BBF5ADE60BC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lizelu/ZLImageViewDisplay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A1E367F1EB54E5F993579854AA6C8BBF5ADE60BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1E367F1EB54E5F993579854AA6C8BBF5ADE60BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZLImageViewDisplay</string>
+		</dict>
+	</array>
+</dict>
+</plist>

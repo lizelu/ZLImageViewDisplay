@@ -29,18 +29,13 @@
     
     CGRect frame = CGRectMake(10, 60, screenFrame.size.width - 20, 200);
     
-    NSArray *imageArray = @[@"01.jpg", @"02.jpg", @"03.jpg"];
+    NSArray *imageArray = @[@"001.jpg", @"002.jpg", @"003.jpg", @"004.jpg", @"005.jpg", @"http://pic1.nipic.com/2008-12-25/2008122510134038_2.jpg"];
     
     //初始化控件
-    ZLImageViewDisplayView *imageViewDisplay = [ZLImageViewDisplayView zlImageViewDisplayViewWithFrame:frame WithImages:imageArray];
-    
-    //设定轮播时间
-    imageViewDisplay.scrollInterval = 2;
-    
-    //图片滚动的时间
+    ZLImageViewDisplayView *imageViewDisplay = [ZLImageViewDisplayView zlImageViewDisplayViewWithFrame:frame];
+    imageViewDisplay.imageViewArray = imageArray;
+    imageViewDisplay.scrollInterval = 3;
     imageViewDisplay.animationInterVale = 0.6;
-    
-    //把该视图添加到相应的父视图上
     [self.view addSubview:imageViewDisplay];
     
     [imageViewDisplay addTapEventForImageWithBlock:^(NSInteger imageIndex) {
